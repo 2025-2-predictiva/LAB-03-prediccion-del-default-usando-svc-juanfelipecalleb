@@ -1,6 +1,5 @@
 # flake8: noqa: E501
 #
-#
 # En este dataset se desea pronosticar el default (pago) del cliente el próximo
 # mes a partir de 23 variables explicativas.
 #
@@ -235,3 +234,4 @@ with open("files/output/metrics.json", "w") as file:
         file.write(json.dumps(metrics_test) + "\n")
         file.write(json.dumps(c_train) + "\n")
         file.write(json.dumps(c_test) + "\n")
+
